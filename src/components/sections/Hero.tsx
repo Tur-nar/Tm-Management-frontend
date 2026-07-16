@@ -12,7 +12,7 @@ export default function Hero() {
                     <button className="px-5 py-3 gap-4 text-white rounded-lg font-medium hover:bg-cyan-600">Try It Out</button>    
                 </div>
             </div>
-            <div className="w-96 h-96 bg-slate-500 rounded-xl flex flex-col justify-center items-center">
+            <div className="w-96 h-96 bg-slate-500 rounded-xl flex flex-col justify-center items-center mt-2">
                 <h2 className="text-xl font-bold">Dashboard Preview</h2>
                 <p>Coming Soon</p>
             </div>
