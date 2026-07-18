@@ -1,4 +1,6 @@
-export const howItWorks: { step: number; title: string; description: string }[] = [
+import { HowItWorks } from "@/types/index";
+
+export const howItWorks: HowItWorks[] = [
     {
         step: 1,
         title: "Create or join a workspace",

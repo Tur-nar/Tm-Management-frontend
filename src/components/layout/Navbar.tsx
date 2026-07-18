@@ -11,8 +11,8 @@ export default function Navbar() {
             </ul>
 
             <div className="flex items-center gap-3">
-                <a href ="#">Login</a>
-                <a href ="#" className ="px-5 py-3 rounded-lg font-medium">Get Started</a>
+                <a href ="#" className="text-gray-300 hover:text-cyan-500 transition-colors duration-300">Login</a>
+                <a href ="#" className ="px-5 py-3 rounded-lg font-medium bg-cyan-500 text-white hover:bg-cyan-600 transition-colors duration-300">Get Started</a>
             </div>
         </nav>
     );

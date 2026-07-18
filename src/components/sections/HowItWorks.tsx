@@ -4,7 +4,7 @@ export default function HowItWorks() {
     return (
         <section className="w-full py-16">
             <div className="max-w-7xl mx-auto px-8">
-                <h2 className="text-3xl font-bold text-center">How It Works</h2>
+                <h2 className="text-3xl font-bold text-center text-cyan-500 py-4">How It Works</h2>
                 <p className="text-lg text-gray-400 text-center mt-4">Everything you need to organize, collaborate and deliver projects successfully.</p>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {howItWorks.map((step) => (

@@ -1,4 +1,6 @@
-export const features: { title: string; description: string }[] = [
+import { Feature } from "@/types/index";
+
+export const features: Feature[] = [
     {
         title: "Task Management",
         description:"Effortlessly create, assign, and track tasks in one place."
